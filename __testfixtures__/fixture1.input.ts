@@ -9,7 +9,7 @@
 module.exports = {
   module: {
     rules: [{
-      test: /\.(j|t)sx?$/i,
+      test: [/\.tsx?$/i],
       use: [{
         loader: 'babel-loader',
         options: {

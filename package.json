@@ -1,5 +1,5 @@
 {
-  "name": "webpack-5-update-babel-loader-to-swc-loader",
+  "name": "babel-7-remove-preset-typescript",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "20.9.0",

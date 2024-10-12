@@ -1,7 +1,5 @@
 Using builtin:swc-loader offers better performance compared to the babel-loader and the external swc-loader, as it avoids frequent communication between JavaScript and Rust.
 
-
-
 ### Before
 
 ```ts
@@ -16,7 +14,7 @@ Using builtin:swc-loader offers better performance compared to the babel-loader 
 module.exports = {
   module: {
     rules: [{
-      test: /\.(j|t)sx?$/i,
+      test: [/\.tsx?$/i],
       use: [{
         loader: 'babel-loader',
         options: {

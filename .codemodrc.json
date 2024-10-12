@@ -1,7 +1,7 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "webpack-to-rspack/migrate-update-babel-loader-to-swc-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engine": "jscodeshift",
   "private": false,
   "arguments": [],
@@ -14,6 +14,6 @@
       "babel-loader",
       "swc-loader"
     ],
-    "git": "https://github.com/dfordp/webpack-to-rspack-handling-built-in-plugins-migrations"
+    "git": "https://github.com/dfordp/webpack-to-rspack-migrate-update-babel-loader-to-swc-loader"
   }
 }
